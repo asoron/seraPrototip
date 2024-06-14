@@ -1,0 +1,42 @@
+/* DataCard.css */
+.data-card {
+    border-radius: 30px;  /* More rounded corners */
+    margin-bottom: 20px;
+    box-shadow: none;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;  /* Softer animations */
+    background-color: #2c6a4a;
+    height: 100%;
+  }
+  
+  .data-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .data-card-content {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .data-card-icon {
+    font-size: 48px;
+    margin-right: 20px;
+    transition: transform 0.4s ease;  /* Softer animations */
+  }
+  
+  .data-card:hover .data-card-icon {
+    transform: scale(1.1);
+  }
+  
+  .data-card-label {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .data-card-value {
+    font-size: 18px;
+    color: white;
+  }
+  

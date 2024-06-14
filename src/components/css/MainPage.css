@@ -1,0 +1,17 @@
+/* MainPage.css */
+.main-page {
+    padding: 32px;
+    background-color: #0d2e24;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 600px) {
+    .main-page {
+      padding: 16px;
+    }
+  }
+  
